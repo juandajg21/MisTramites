@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.jimenez.jdavid.mistramites.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:orientation="vertical">
+
+        <TextView android:id="@+id/mStatusUser"
+            android:text="User"
+            android:hint="Inicia Sesión..."
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:textColor="@color/black"/>
+
+        <TextView android:id="@+id/Bienvenido"
+            android:text="Bienvenido a Mis Trámites"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+
+        <TextView android:id="@+id/Instrucciones"
+            android:text="@string/Instruccion"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/black"/>
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/id_sign_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:visibility="visible"
+            tools:visibility="gone" />
+
+        <Button android:id="@+id/id_sign_out_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:textSize="14sp"
+            android:text="@string/btnSignOut"
+            android:textColor="@color/white"
+            android:background="@color/gray"
+            android:textAllCaps="false"
+            android:visibility="gone"
+            tools:visibility="visible"/>
+
+        <EditText android:id="@+id/ePass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:hint="Código Único"
+            android:textColor="@color/black"/>
+
+        <EditText android:id="@+id/eUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:hint="Nombre de Usuario"
+            android:textColor="@color/black"/>
+
+        <Button android:id="@+id/bRegister"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="14sp"
+            android:text="Registrarse y Consultar"
+            android:textColor="@color/white"
+            android:background="@color/gray"
+            android:textAllCaps="false"
+            android:layout_margin="4dp" />
+
+        <TextView android:id="@+id/tEstado"
+            android:hint="Aquí verás el estado de tu trámite"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</LinearLayout>

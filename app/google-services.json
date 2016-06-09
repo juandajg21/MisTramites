@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1029246580890",
+    "project_id": "mistramites-a17a1"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029246580890:android:8f941584680026df",
+        "android_client_info": {
+          "package_name": "com.jimenez.jdavid.mistramites"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029246580890-jo88csngh1n2eg8kp625bko459mj0ujc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jimenez.jdavid.mistramites",
+            "certificate_hash": "11A058CE79A1F7C03F98E25D3795A3C9F481D2A3"
+          }
+        },
+        {
+          "client_id": "1029246580890-dedcf5k4oe3s8mj5tvg1plg02m07tdn3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfir2My0mcFZ7yCp1L4dC1Ri6gVCcjP_4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

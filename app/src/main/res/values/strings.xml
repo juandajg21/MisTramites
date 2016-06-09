@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MisTramites</string>
+    <string name="server_client_id">1029246580890-dedcf5k4oe3s8mj5tvg1plg02m07tdn3.apps.googleusercontent.com</string>
+    <string name="btnSignIn">Iniciar Sesión</string>
+    <string name="btnSignOut">Cerrar Sesión</string>
+    <string name="signed_out">^_^</string>
+    <string name="signed_out2">...</string>
+    <string name="loading">Cargando</string>
+    <string name="signed_in_fmt">Hola: %s</string>
+    <string name="signed_in_fmt2">%s</string>
+    <string name="facebook_app_id">801364433296866</string>
+    <string name="Instruccion">Simple, cómodo y al instante\n1. Escribe el CÓDIGO ÚNICO que te entregaron al momento de realizar tu trámite.\n2. Inicia Sesión: puedes iniciar sesión con tu cuenta de Facebook o con tu cuenta de Gmail; o también puedes registrarte ingresando únicamente un nombre de usuario.\n3. Selecciona Registrarse y Consultar.</string>
+</resources>
